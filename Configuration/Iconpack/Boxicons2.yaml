@@ -1,0 +1,166 @@
+iconpack:
+  title: "Boxicons 2"
+  key: "bx2"
+  version: "2.1.4"
+  url: "https://github.com/atisawd/boxicons"
+
+  stylesEnabled: "regular,solid,logos"
+
+  renderTypes:
+    _default:
+      _default:
+        attributes:
+          class: "bx"
+      regular:
+        label: Regular
+        prefix: "bx-"
+      solid:
+        label: Solid
+        prefix: "bxs-"
+      brands:
+        label: Brands
+        prefix: "bxl-"
+
+    webfont:
+      _default:
+        attributes:
+          aria-hidden: "true"
+          role: "img"
+      regular:
+        css: "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/css/boxicons.css"
+      solid:
+        css: "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/css/boxicons.css"
+      logos:
+        css: "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/css/boxicons.css"
+
+    svg:
+      _default:
+        css:
+          backend: "EXT:iconpack_boxicons/Resources/Public/Css/Backend/boxicons.css"
+          ckeditor: "EXT:iconpack_boxicons/Resources/Public/Css/Backend/boxicons.css"
+          frontend:
+            - "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/css/animations.css"
+            - "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/css/transformations.css"
+        attributes:
+          fill: "currentColor"
+      regular:
+        source: "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/svgs/regular/bx-"
+      solid:
+        source: "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/svgs/solid/bxs-"
+      logos:
+        source: "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/svgs/logos/bxl-"
+
+    svgInline:
+      _default:
+        css:
+          backend: "EXT:iconpack_boxicons/Resources/Public/Css/Backend/boxicons.css"
+          ckeditor: "EXT:iconpack_boxicons/Resources/Public/Css/Backend/boxicons.css"
+          frontend:
+            - "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/css/animations.css"
+            - "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/css/transformations.css"
+        attributes:
+          fill: "currentColor"
+          role: "img"
+      regular:
+        source: "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/svgs/regular/bx-"
+      solid:
+        source: "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/svgs/solid/bxs-"
+      logos:
+        source: "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/svgs/logos/bxl-"
+
+  options:
+    size:
+      type: "select"
+      label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.size"
+      values:
+        xs:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.xs"
+          attributes:
+            class: "bx-xs"
+        sm:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.sm"
+          attributes:
+            class: "bx-sm"
+        md:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.md"
+          attributes:
+            class: "bx-md"
+        lg:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.lg"
+          attributes:
+            class: "bx-lg"
+    decoration:
+      type: "select"
+      label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.decoration"
+      values:
+        border:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:decoration.border"
+          attributes:
+            class: "bx-border"
+        border-circle:
+          label: "Border Circle"
+          attributes:
+            class: "bx-border-circle"
+    transform:
+      type: "select"
+      label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.transform"
+      values:
+        r90:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.90"
+          attributes:
+            class: "bx-rotate-90"
+        r180:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.180"
+          attributes:
+            class: "bx-rotate-180"
+        r270:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.270"
+          attributes:
+            class: "bx-rotate-270"
+        fx:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.flipHorizontal"
+          attributes:
+            class: "bx-flip-horizontal"
+        fy:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.flipVertical"
+          attributes:
+            class: "bx-flip-vertical"
+        spin:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.spin"
+          attributes:
+            class: "bx-spin"
+        tada:
+          label: "Tada"
+          attributes:
+            class: "bx-tada"
+        burst:
+          label: "Burst"
+          attributes:
+            class: "bx-burst"
+        flashing:
+          label: "Flashing"
+          attributes:
+            class: "bx-flashing"
+        fade-left:
+          label: "Fade Left"
+          attributes:
+            class: "bx-fade-left"
+        fade-right:
+          label: "Fade Right"
+          attributes:
+            class: "bx-fade-right"
+        fade-up:
+          label: "Fade Up"
+          attributes:
+            class: "bx-fade-up"
+        fade-down:
+          label: "Fade Down"
+          attributes:
+            class: "bx-fade-down"
+    fixed:
+      type: "checkbox"
+      label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.fixed"
+      attributes:
+        class: "bx-fw"
+
+  icons: "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/metadata/icons.json"
