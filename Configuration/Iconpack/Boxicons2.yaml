@@ -7,6 +7,7 @@ iconpack:
   stylesEnabled: "regular,solid,logos"
 
   renderTypes:
+
     _default:
       _default:
         attributes:
@@ -17,8 +18,8 @@ iconpack:
       solid:
         label: Solid
         prefix: "bxs-"
-      brands:
-        label: Brands
+      logos:
+        label: Logos
         prefix: "bxl-"
 
     webfont:
@@ -41,8 +42,6 @@ iconpack:
           frontend:
             - "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/css/animations.css"
             - "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/css/transformations.css"
-        attributes:
-          fill: "currentColor"
       regular:
         source: "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/svgs/regular/bx-"
       solid:
@@ -69,6 +68,7 @@ iconpack:
         source: "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/svgs/logos/bxl-"
 
   options:
+
     size:
       type: "select"
       label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.size"
@@ -89,6 +89,7 @@ iconpack:
           label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.lg"
           attributes:
             class: "bx-lg"
+
     decoration:
       type: "select"
       label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.decoration"
@@ -101,6 +102,7 @@ iconpack:
           label: "Border Circle"
           attributes:
             class: "bx-border-circle"
+
     transform:
       type: "select"
       label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.transform"
@@ -157,6 +159,7 @@ iconpack:
           label: "Fade Down"
           attributes:
             class: "bx-fade-down"
+
     fixed:
       type: "checkbox"
       label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.fixed"
