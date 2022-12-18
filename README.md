@@ -8,12 +8,12 @@ TYPO3 CMS Extension "iconpack_boxicons"
 
 ## What does it do?
 
-This Extension registers an Iconpack-Provider for `EXT:iconpack` which allows you to use the [Boxicons](https://github.com/atisawd/boxicons) in TYPO3.
+This Extension registers an Iconpack-Provider for EXT:iconpack which allows you to use the [Boxicons](https://github.com/atisawd/boxicons) in TYPO3.
 
 
 ## Installation/Configuration
 
-1. Install `EXT:iconpack` from TER/git or with composer
+1. Install EXT:iconpack from TER/git or with composer
 2. Install this Extension from TER/git or with composer
 3. Customize configuration (Optional)
 
