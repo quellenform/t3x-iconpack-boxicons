@@ -301,91 +301,158 @@
                 transform: scale3d(1, 1, 1);
     }
 }
-.iconpack-form-icon .bx-spin,
 .bx-spin
 {
     -webkit-animation: spin 2s linear infinite;
             animation: spin 2s linear infinite;
 }
-.iconpack-form-icon .bx-tada,
+.bx-spin-hover:hover
+{
+    -webkit-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+}
+
 .bx-tada
 {
     -webkit-animation: tada 1.5s ease infinite;
             animation: tada 1.5s ease infinite;
 }
-.iconpack-form-icon .bx-flashing,
+.bx-tada-hover:hover
+{
+    -webkit-animation: tada 1.5s ease infinite;
+            animation: tada 1.5s ease infinite;
+}
+
 .bx-flashing
 {
     -webkit-animation: flashing 1.5s infinite linear;
             animation: flashing 1.5s infinite linear;
 }
-.iconpack-form-icon .bx-burst,
+.bx-flashing-hover:hover
+{
+    -webkit-animation: flashing 1.5s infinite linear;
+            animation: flashing 1.5s infinite linear;
+}
+
 .bx-burst
 {
     -webkit-animation: burst 1.5s infinite linear;
             animation: burst 1.5s infinite linear;
 }
-.iconpack-form-icon .bx-fade-up,
+.bx-burst-hover:hover
+{
+    -webkit-animation: burst 1.5s infinite linear;
+            animation: burst 1.5s infinite linear;
+}
 .bx-fade-up
 {
     -webkit-animation: fade-up 1.5s infinite linear;
             animation: fade-up 1.5s infinite linear;
 }
-.iconpack-form-icon .bx-fade-down,
+.bx-fade-up-hover:hover
+{
+    -webkit-animation: fade-up 1.5s infinite linear;
+            animation: fade-up 1.5s infinite linear;
+}
 .bx-fade-down
 {
     -webkit-animation: fade-down 1.5s infinite linear;
             animation: fade-down 1.5s infinite linear;
 }
-.iconpack-form-icon .bx-fade-left,
+.bx-fade-down-hover:hover
+{
+    -webkit-animation: fade-down 1.5s infinite linear;
+            animation: fade-down 1.5s infinite linear;
+}
 .bx-fade-left
 {
     -webkit-animation: fade-left 1.5s infinite linear;
             animation: fade-left 1.5s infinite linear;
 }
-.iconpack-form-icon .bx-fade-right,
+.bx-fade-left-hover:hover
+{
+    -webkit-animation: fade-left 1.5s infinite linear;
+            animation: fade-left 1.5s infinite linear;
+}
 .bx-fade-right
 {
     -webkit-animation: fade-right 1.5s infinite linear;
             animation: fade-right 1.5s infinite linear;
 }
+.bx-fade-right-hover:hover
+{
+    -webkit-animation: fade-right 1.5s infinite linear;
+            animation: fade-right 1.5s infinite linear;
+}
+.bx-xs
+{
+    font-size: 1rem!important;
+}
+.bx-sm
+{
+    font-size: 1.55rem!important;
+}
+.bx-md
+{
+    font-size: 2.25rem!important;
+}
+.bx-lg
+{
+    font-size: 3.0rem!important;
+}
+.bx-fw
+{
+    font-size: 1.2857142857em;
+    line-height: .8em;
 
-.iconpack-form-icon .bx-rotate-90,
+    width: 1.2857142857em;
+    height: .8em;
+    margin-top: -.2em!important;
+
+    vertical-align: middle;
+}
+.bx-pull-left
+{
+    float: left;
+
+    margin-right: .3em!important;
+}
+.bx-pull-right
+{
+    float: right;
+
+    margin-left: .3em!important;
+}
 .bx-rotate-90
 {
     transform: rotate(90deg);
 
     -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=1)';
 }
-.iconpack-form-icon .bx-rotate-180,
 .bx-rotate-180
 {
     transform: rotate(180deg);
 
     -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=2)';
 }
-.iconpack-form-icon .bx-rotate-270,
 .bx-rotate-270
 {
     transform: rotate(270deg);
 
     -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=3)';
 }
-.iconpack-form-icon .bx-flip-horizontal,
 .bx-flip-horizontal
 {
     transform: scaleX(-1);
 
     -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)';
 }
-.iconpack-form-icon .bx-flip-vertical,
 .bx-flip-vertical
 {
     transform: scaleY(-1);
 
     -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)';
 }
-
 .bx-border
 {
     padding: .25em;

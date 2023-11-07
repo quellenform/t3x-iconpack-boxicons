@@ -37,11 +37,7 @@ iconpack:
     svg:
       _default:
         css:
-          backend: "EXT:iconpack_boxicons/Resources/Public/Css/Backend/boxicons.css"
-          ckeditor: "EXT:iconpack_boxicons/Resources/Public/Css/Backend/boxicons.css"
-          frontend:
-            - "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/css/animations.css"
-            - "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/css/transformations.css"
+          shared: "EXT:iconpack_boxicons/Resources/Public/Css/bx2-transforms.min.css"
       regular:
         source: "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/svgs/regular/bx-"
       solid:
@@ -52,11 +48,7 @@ iconpack:
     svgInline:
       _default:
         css:
-          backend: "EXT:iconpack_boxicons/Resources/Public/Css/Backend/boxicons.css"
-          ckeditor: "EXT:iconpack_boxicons/Resources/Public/Css/Backend/boxicons.css"
-          frontend:
-            - "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/css/animations.css"
-            - "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/css/transformations.css"
+          shared: "EXT:iconpack_boxicons/Resources/Public/Css/bx2-transforms.min.css"
         attributes:
           fill: "currentColor"
           role: "img"
