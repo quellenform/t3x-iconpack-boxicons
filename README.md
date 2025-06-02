@@ -24,7 +24,7 @@ This extension contains an icon set of another author. Please note the license t
 
 | Name    | *Boxicons*                                             |
 | :------ | :----------------------------------------------------- |
-| Type    | SVG,Webfont                                            |
+| Type    | SVG, Webfont                                           |
 | Version | *2.1.4*                                                |
 | Source  | https://github.com/atisawd/boxicons                    |
 | License | [MIT](http://opensource.org/licenses/mit-license.html) |
