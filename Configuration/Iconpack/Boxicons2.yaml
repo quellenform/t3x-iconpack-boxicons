@@ -23,10 +23,6 @@ iconpack:
         prefix: "bxl-"
 
     webfont:
-      _default:
-        attributes:
-          aria-hidden: "true"
-          role: "img"
       regular:
         css: "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/css/boxicons.css"
       solid:
@@ -51,7 +47,6 @@ iconpack:
           shared: "EXT:iconpack_boxicons/Resources/Public/Css/bx2-transforms.min.css"
         attributes:
           fill: "currentColor"
-          role: "img"
       regular:
         source: "EXT:iconpack_boxicons/Resources/Public/Vendor/boxicons-2.1.4/svgs/regular/bx-"
       solid:
